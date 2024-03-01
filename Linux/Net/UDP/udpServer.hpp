@@ -22,7 +22,8 @@ enum
     USAGE_ERR = 1, // usage
     SOCK_ERR = 2,  // socket
     BIND_ERR = 3,  // bind
-    RECV_ERR = 4   // recvfrom
+    RECV_ERR = 4,  // recvfrom
+    OPEN_ERR = 5   // open
 };
 
 // udp服务端
